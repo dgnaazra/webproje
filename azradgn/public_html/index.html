@@ -1,0 +1,89 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> GİRİŞ EKRANI </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: #F0FFFF;  
+}  
+a.button1 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    background-color: #DAA520;   
+       width: 100%;  
+        color: red;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: solid;   
+        cursor: pointer; 
+}
+
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.9;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 20px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+   
+</style>   
+</head>    
+<body>
+    <script>
+    function validateForm(){
+        var x = document.forms["myform"]["kullaniciadi"].value;
+         
+        if(x==""){
+            alert("boş alanları doldurunuz.");
+            return false;
+        }
+    }
+</script>
+<script>
+    function validateForm(){
+        var y = document.forms["myform"]["sifre"].value;
+         
+        if(y==""){
+            alert("boş alanları doldurunuz.");
+            return false;
+        }
+    }
+</script>
+  <main id="main-holder">
+   <center><h1 id="login-header">GİRİŞ SAYFASI</h1></center>
+    
+    
+    
+    <form id="login-form"  >
+	<b><label>KULLANICI ADI : </label></b>  
+      <b><input type="text" name="kullaniciadi" id="username-field" class="login-form-field" placeholder="Kullanıcı adını giriniz."  ></b>
+	 <b><label>ŞİFRE : </label></b> 
+      <input type="password" name="sifre" id="password-field" class="login-form-field" placeholder="Şifrenizi giriniz">
+	  
+      <center><input type="button1" onclick="location.href='menu.html';" value="GİRİŞ"/></center>
+
+
+    </form>
+  
+  </main>
+</body>
+</html>  
