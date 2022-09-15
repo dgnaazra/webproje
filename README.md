@@ -1,4 +1,4 @@
-# Bu ödevde html ile kodlama tekniğini kullanarak kendimi tanıtan siteyi oluşturdum. Javascript kodları ile kontrol sağlamaya çalıştım. Css ile ise renklendirme ve görsel düzenleme ve boyut ayarlamalarını yaptım
+# Bu ödevde html ile kodlama tekniğini kullanarak kendimi tanıtan siteyi oluşturdum. Javascript kodları ile kontrol sağlamaya çalıştım. Css ile ise renklendirme ve görsel düzenleme ve boyut ayarlamalarını yaptım. Slider ile sayfaya dinamik bir yapı kazandırdım.
 
 
 ![image](https://user-images.githubusercontent.com/102390389/168492034-0e71b359-a49f-4c4b-89f6-b836e62d0ca5.png)
